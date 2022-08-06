@@ -46,7 +46,7 @@ def hangman():
         main = ""
         for letter in word:
             if letter in guessmade:
-                main = main + letter + " "
+                main = main + letter
             else:
                 main = main + "_" + " "
         if main == word:
